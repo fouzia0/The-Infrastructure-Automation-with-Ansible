@@ -33,7 +33,9 @@ Edit the inventory files under the inventories/ directory to include the IP addr
 # Playbook Execution
 
 To run the playbooks, use the following command:
-<img width="600" alt="f2 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/21eb5e9a-1235-4490-a828-3d1ee26e942e">
+
+<img width="900" alt="f2 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/21eb5e9a-1235-4490-a828-3d1ee26e942e">
+
 
 Replace production with staging if deploying to the staging environment.
 
