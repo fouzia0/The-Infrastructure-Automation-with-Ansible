@@ -59,6 +59,6 @@ Ensure that SSH keys are properly set up for secure communication between the co
 
 # Contributing
 
-If you find issues or have improvements, feel free to contribute by opening an issue or a pull request on the GitHub repository.
+If you find issues or have improvements, feel free to contribute by opening an issue or a pull request on my GitHub repository.
 
 
