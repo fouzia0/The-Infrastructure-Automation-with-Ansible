@@ -20,7 +20,7 @@ Before running the Ansible playbooks, ensure the following prerequisites are met
 
 Ansible is installed on the control machine.
 SSH access to target servers is set up.
-<img width="249" alt="file1 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/35a420bb-be92-4493-bddb-92f2612719ad">
+<img width="600" alt="file1 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/35a420bb-be92-4493-bddb-92f2612719ad">
 
 inventories: Contains inventory files for different environments (production, staging) and group_vars for variable definitions.
 roles: Organized roles for web server, database server, and load balancer.
@@ -33,7 +33,7 @@ Edit the inventory files under the inventories/ directory to include the IP addr
 # Playbook Execution
 
 To run the playbooks, use the following command:
-<img width="495" alt="f2 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/21eb5e9a-1235-4490-a828-3d1ee26e942e">
+<img width="600" alt="f2 for ansible" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/21eb5e9a-1235-4490-a828-3d1ee26e942e">
 
 Replace production with staging if deploying to the staging environment.
 
@@ -45,7 +45,7 @@ webserver.yml: Variables related to the web server.
 database.yml: Variables related to the database server.
 loadbalancer.yml: Variables related to the load balancer (if applicable).
 Example group_vars file (inventories/production/group_vars/webserver.yml):
-<img width="233" alt="f3 for ansi" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/cf3696ff-39eb-4a8f-8e2d-d8e22bc627f9">
+<img width="600" alt="f3 for ansi" src="https://github.com/fouzia0/The-Infrastructure-Automation-with-Ansible/assets/146019530/cf3696ff-39eb-4a8f-8e2d-d8e22bc627f9">
 
 # Testing
 
